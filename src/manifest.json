@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Mute Domain Addon",
+    "version": "1.0",
+    "description": "Mutes all tabs for a specific domain.",
+    "permissions": ["tabs", "contextMenus", "webNavigation"],
+    "background": {
+      "scripts": ["scripts/background.js"]
+    },
+    "icons": {
+        "48": "icons/icon-48.png",
+        "96": "icons/icon-96.png"
+    },
+    "browser_action": {
+      "default_title": "Mute Domain",
+      "default_icon": {
+        "48": "icons/icon-48.png",
+        "96": "icons/icon-96.png"
+        }
+    }
+  }
